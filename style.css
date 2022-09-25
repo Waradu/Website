@@ -1,0 +1,163 @@
+@import url('http://fonts.cdnfonts.com/css/clash-display');
+:root {
+  --bg: #292929;
+  --box: #1a1a1a;
+  --box-inside: #242424;
+  --box-text: #999999;
+  --box-text-select: #666666;
+  --box-text-big: #ffffff;
+  --primary: #bf7bfb;
+  --primary-variant: #3700b3;
+  --secondary: #03dac5;
+  --secondary-variant: #018786;
+  --tertiary: #cf6679;
+  --tertiary-variant: #b00020;
+}
+html {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image:
+        radial-gradient(at 30% 50%, rgba(119, 119, 207, 0.12) 0, transparent 50%),
+        radial-gradient(at 80% 0, rgba(119, 119, 207, 0.1) 0, transparent 50%),
+        radial-gradient(at 80% 100%, rgba(119, 119, 207, 0.15) 0, transparent 50%);
+    background-color: #171b22;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+.page {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+.title {
+    color: #F1F6FC;
+    font-family: 'Clash Display', sans-serif;
+    display: inline-block;
+    text-align: center;
+    max-width: 50%;
+    font-size: 65px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.text-small {
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 40%;
+}
+.tsv2 {
+    color: gray;
+    font-size: 18px;
+    font-weight: 600;
+}
+.tv2 {
+    font-size: 45px;
+    font-weight: 600;
+}
+.title-bar {
+    position: relative;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #171b22;
+    box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.4);
+    max-width: 60%;
+    margin: 30px;
+    margin-inline: 0px;
+    border-radius: 6px;
+    height: 70px;
+}
+.icon {
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 18px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: white;
+}
+.icon2 {
+    position: absolute;
+    top: 50%;
+    right: 210px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: white;
+}
+.split {
+    position: absolute;
+    top: 50%;
+    right: 193px;
+    background-color: gray;
+    height: 40px;
+    width: 1px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: white;
+}
+.sbtn {
+    background-color: #8670D1;
+    color: white;
+    height: 40px;
+    width: 100px;
+    font-weight: 600;
+    border-radius: 6px;
+    outline: none;
+    border: 0px solid black;
+}
+.navbtn {
+    position: absolute;
+    top: 50%;
+    right: 18px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.sign-in {
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    top: 50%;
+    right: 135px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.btn1 {
+    margin: 30px;
+    padding-inline: 20px;
+    margin-inline: 10px;
+    width: 180px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn {
+    border: 1px solid #21262d;
+    background-color: transparent
+}
+.arrow {
+    margin-left: 6px;
+}
+.img {
+    max-width: 60%;
+    margin-top: 30px;
+    border-radius: 6px;
+}
+.img_small {
+    max-width: 100%;
+    border-radius: 6px;
+}
+.grid {
+    display: grid;
+    grid-gap: 5px;
+    background-color: red;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 40% 40% 40%;
+}
